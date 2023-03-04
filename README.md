@@ -11,36 +11,36 @@
 
 * Since the beginning of the course I have been developing this portfolio by using the skills and knowledge I have been gaining from the course lectures and the assignments. So a substantial amount of work in base UI has been done towards building this app.  However, all data content is currently card-coded, and the recommender project feature have not been implemented. So the final project will consist on enhancing the current MVP I have developed using Firebase for content management and hosting. 
 
+# Project dependencies
+
+* Firebase integration with props in React components across all pages.
+
+* Firebase as a hosting platform for the React APP
+
+* Potential  Javascript page recommendation libraries
+
+* Further learning on React MUI framework for more complex interactions and visualizations
 
 
+## Tasks to complete
 
-## Assignment Requirements
+### Week 1:
 
-Above are the requirements for the project. For this week however, you'll need to create a plan for your project. More details are to come, but you'll need to create a pull request with the following:
+* Creating a Firestore data base and connect it with the Portfolio app
 
-* The name of your project
-* An elevator pitch (a paragraph about what your project does). Be sure to address:
-  * Who will use your project
-  * The value that your project will provide to the end user
-* [Wireframes](https://en.wikipedia.org/wiki/Website_wireframe) to help visualize what your project will look like
-  * These wireframes do not have to be high-fidelity. You're free to use boxes, hand drawings, tools such as Draw.io, etc.
-* A list of dependencies you'll be using for your project (npm modules, APIs, Firebase, etc.)
-  * This list will likely change as you work on your project, but listing your dependencies will help you visualize the complexity of the project
-* A list of tasks that need to be completed for your project
-  * Example list of tasks for the Star Wars films example:
-    * Setup `create-react-app` scaffold
-    * Call the Star Wars API and print results
-    * Store API results in React component state
-    * Render React state
-* A plan for the next 3 weeks and what you plan to accomplish each week
+* Structuring the data in the firestore data base by page
 
-## Recommendations
+* Extract the content data from the Firestore and propagated it into the different components via React props.
 
-* Keep the scope of your project small. A small, completed project is much better than a large, incomplete project. You can create a list of "nice to have" features that you can work on if you have time (similar to how our assignments have a main list of requirements and "bonus" items).
-* Ensure you have plenty of buffer time in your schedule. Life events pop up, and tasks can take longer than initially estimated.
+* Deploy the app in Firebase
 
-## Submitting your Project Idea
+### Week 2:
 
-1. Add your project name, elevator pitch, wireframes, dependencies, task list, and plan to the GitHub repo (you can add a markdown file + images or links to images)
-2. Create a pull request
-3. Create a zip file of your repo for submission to Canvas.
+* Implement a simple recommendation engine using a Firestore  to suggest the viewer other similar pages they might be interested in viewing based on the current page being viewed. Log some viewing analytics into the firestore
+
+
+### Week 3:
+
+Enhance further the look and feel using React MUI framework and standard CSS for  Portfolio sample projects with the features developed in weeks 1 and 2.
+
+
