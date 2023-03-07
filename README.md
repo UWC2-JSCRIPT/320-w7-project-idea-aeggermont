@@ -45,4 +45,20 @@
 
 ## High Fidelity Mockups
 
+### Landing Page - Ipad Version:
+
 ![Portfolio Landing Page](AAEPortfolio-landingpage-iPad.png)
+
+### Projects Page - Ipad Version:
+
+![Portfolio Projects Page](AAEPortfolio-ProjectsPage-iPad-Landscape.png)
+
+### Personal Information Page - Ipad Version:
+
+![Personal Information Page](PersonalInformation-Ipad.png)
+
+### Sample Project Page with Suggested Recommendations - Ipad Version:
+
+![Sample Project Page & Recommendations ](SampleProjectARMagicTours.png)
+
+
