@@ -43,4 +43,5 @@
 
 * Enhance further the look and feel using React MUI framework and standard CSS for  Portfolio sample projects with the features developed in weeks 1 and 2.
 
+## High Fidelity Mockups
 
