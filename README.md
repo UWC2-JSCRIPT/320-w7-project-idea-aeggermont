@@ -60,7 +60,7 @@
 
 ### Landing Page - Mobile Version:
 
-![Sample Project Page & Recommendations ](AAE Portfolio-landingpage-MobilePortrait.png)
+![Sample Project Page & Recommendations ](AAEPortfolio-landingpage-MobilePortrait.png)
 
 ### Projects Page - Mobile Version:
 
