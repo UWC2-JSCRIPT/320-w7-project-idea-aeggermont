@@ -53,12 +53,15 @@
 
 ![Portfolio Projects Page](AAEPortfolio-ProjectsPage-iPad-Landscape.png)
 
-### Personal Information Page - Ipad Version:
-
-![Personal Information Page](PersonalInformation-Ipad.png)
 
 ### Sample Project Page with Suggested Recommendations - Ipad Version:
 
 ![Sample Project Page & Recommendations ](SampleProjectARMagicTours.png)
 
+### Landing Page - Mobile Version:
 
+![Sample Project Page & Recommendations ](AAE Portfolio-landingpage-MobilePortrait.png)
+
+### Projects Page - Mobile Version:
+
+![Projects Page Mobile Version ](ProjectsMobile.png)
