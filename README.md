@@ -1,64 +1,67 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10371122&assignment_repo_type=AssignmentRepo)
-# Week 7 Assignment
+# Project Idea: An Interactiuve Professional Portfolio developed in ReactJS
 
-Your assignment for this week is to think of a final project idea and create a plan for the project.
 
-## Final Project Requirements
+## Elevator Pitch
 
-* The project must be a React application, bootstrapped with `create-react-app`
-* Your app must be created using the repo created from accepting the Final Project assignment on GitHub Classroom in Canvas.
-* Your app must be your own work. You may work in a group of up to **3 people** if you'd like, but be aware that you'll need to come up with a strategy for working together. Most developers on small projects create branches for new features/fixes, then merge them back into the `main` branch. Merge conflicts can arise, and you'll need to resolve them as you go.
-  * The simplest and most straightforward workflow for each team member:
-    ```bash
-    # create a branch off of main
-    git checkout main
-    git branch -b feat/new-feature-name
+* I am a software developer and a UX engineer. An important aspect of my career development as a technologist designer is to explore different project opportunities by showcasing my skills with different teams at my company and  beyond. So hiring managers, and other designer and engineers will be the users of this app. THe value the users will gain is to have a solid and clear understanding of my skill set, potential, and the projects I have developed and contrubuted.
 
-    # commit code to this branch
-    git add .
-    git commit -m 'more code'
 
-    # periodically push to GitHub
-    git push
-    ```
-  * Create pull requests on GitHub into the `main` branch when ready to merge code. It's recommended that you merge only working and/or tested code.
-* Your app should be deployed onto a web server and publicly accessible.
-* Your app should be *polished*. Some recommendations for this requirement:
-  * Remove `console.log` statements once you're finished with development
-  * Utilize CSS and images to make your app look professional
-  * Check for any React errors in the console
-  * Perform some basic user testing. Have other people use your app and receive feedback on usability
-  * Keep your feature set small, so you'll have time to polish the app
+* I elected to use a Firebase database to store the contents of the portfolio to be able to update the different pages and my own profile without having to do deploy the ReactJS app. In addition, I plan to host the ReactJS app in Firebase as well.  Features like function base components, project recommendations, and basic analytics to find out what features and pages are being viewed are part of my final project.
 
-Other than the above requirements, you're encouraged to be creative and create something you're proud of. It can be as simple or as complex as you want, and it should be high quality.
+* Since the beginning of the course I have been developing this portfolio by using the skills and knowledge I have been gaining from the course lectures and the assignments. So a substantial amount of work in base UI has been done towards building this app.  However, all data content is currently card-coded, and the recommender project feature have not been implemented. So the final project will consist on enhancing the current MVP I have developed using Firebase for content management and hosting. 
 
-## Assignment Requirements
+# Project dependencies
 
-Above are the requirements for the project. For this week however, you'll need to create a plan for your project. More details are to come, but you'll need to create a pull request with the following:
+* Firebase integration with props in React components across all pages.
 
-* The name of your project
-* An elevator pitch (a paragraph about what your project does). Be sure to address:
-  * Who will use your project
-  * The value that your project will provide to the end user
-* [Wireframes](https://en.wikipedia.org/wiki/Website_wireframe) to help visualize what your project will look like
-  * These wireframes do not have to be high-fidelity. You're free to use boxes, hand drawings, tools such as Draw.io, etc.
-* A list of dependencies you'll be using for your project (npm modules, APIs, Firebase, etc.)
-  * This list will likely change as you work on your project, but listing your dependencies will help you visualize the complexity of the project
-* A list of tasks that need to be completed for your project
-  * Example list of tasks for the Star Wars films example:
-    * Setup `create-react-app` scaffold
-    * Call the Star Wars API and print results
-    * Store API results in React component state
-    * Render React state
-* A plan for the next 3 weeks and what you plan to accomplish each week
+* Firebase as a hosting platform for the React APP
 
-## Recommendations
+* Potential  Javascript page recommendation libraries
 
-* Keep the scope of your project small. A small, completed project is much better than a large, incomplete project. You can create a list of "nice to have" features that you can work on if you have time (similar to how our assignments have a main list of requirements and "bonus" items).
-* Ensure you have plenty of buffer time in your schedule. Life events pop up, and tasks can take longer than initially estimated.
+* Further learning on React MUI framework for more complex interactions and visualizations
 
-## Submitting your Project Idea
 
-1. Add your project name, elevator pitch, wireframes, dependencies, task list, and plan to the GitHub repo (you can add a markdown file + images or links to images)
-2. Create a pull request
-3. Create a zip file of your repo for submission to Canvas.
+## Tasks to complete
+
+### Week 1:
+
+* Creating a Firestore data base and connect it with the Portfolio app
+
+* Structuring the data in the firestore data base by page
+
+* Extract the content data from the Firestore and propagated it into the different components via React props.
+
+* Deploy the app in Firebase
+
+### Week 2:
+
+* Implement a simple recommendation engine using a Firestore  to suggest the viewer other similar pages they might be interested in viewing based on the current page being viewed. Log some viewing analytics into the firestore
+
+
+### Week 3:
+
+* Enhance further the look and feel using React MUI framework and standard CSS for  Portfolio sample projects with the features developed in weeks 1 and 2.
+
+## High Fidelity Mockups
+
+### Landing Page - Ipad Version:
+
+![Portfolio Landing Page](AAEPortfolio-landingpage-iPad.png)
+
+### Projects Page - Ipad Version:
+
+![Portfolio Projects Page](AAEPortfolio-ProjectsPage-iPad-Landscape.png)
+
+
+### Sample Project Page with Suggested Recommendations - Ipad Version:
+
+![Sample Project Page & Recommendations ](SampleProjectARMagicTours.png)
+
+### Landing Page - Mobile Version:
+
+![Sample Project Page & Recommendations ](AAEPortfolio-landingpage-MobilePortrait.png)
+
+### Projects Page - Mobile Version:
+
+![Projects Page Mobile Version ](ProjectsMobile.png)
